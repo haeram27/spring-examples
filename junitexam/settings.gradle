@@ -12,4 +12,12 @@ dependencyResolutionManagement {
     }
 }
 
+startParameter.offline=false
+if(startParameter.offline)
+{
+        println "======================"
+        println "gradle in offline mode"
+        println "======================"
+}
+
 rootProject.name = 'junitexam'
