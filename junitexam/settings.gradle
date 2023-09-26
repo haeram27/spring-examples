@@ -1,13 +1,15 @@
 pluginManagement {
     repositories {
-        maven { url abisMavenArtifactoryUrl }
+        maven { url mavenRepositoryUrl }
     }
 }
+
 dependencyResolutionManagement {
     repositories { 
         maven {
-            url abisMavenArtifactoryUrl
+            url mavenRepositoryUrl
         }
-    } 
+    }
 }
+
 rootProject.name = 'junitexam'
