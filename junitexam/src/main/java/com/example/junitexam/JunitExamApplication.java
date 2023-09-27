@@ -10,5 +10,6 @@ public class JunitExamApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(JunitExamApplication.class, args);
+        log.info("***** main() *****");
     }
 }
